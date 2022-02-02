@@ -1,0 +1,76 @@
+DOWNLOAD  ZIP FILE FROM NET 
+
+EXPORT THE FILE
+
+NOW the new file which is created open it fast
+
+Open file and copy the path of it            --->>>       (C:\Users\LenovoG500\Downloads\test_db-master\test_db-master)
+
+Paste it in notepad 
+
+Now change the \ slash to /                    --->>>           (C:/Users/LenovoG500/Downloads/test_db-master/test_db-master)
+
+Rename it                                                      --->>>      (source C:/Users/LenovoG500/Downloads/test_db-master/test_db-master/employe/employees.sql;)
+
+COPY the folder name from the       
+impoted file:                                                --->>>              (load_departments.dump,load_dept_emp.dump,load_dept_manager.dump,
+                                                                                                     load_employees.dump,load_salaries1.dump,load_salaries2.dump,load_salaries3.dump)
+                                                                                                Eg:select and rename and copy,paste here;
+
+
+Now seee thisss                                          --->>>
+                                                                                     	 SELECT 'LOADING departments' as 'INFO';
+source load_departments.dump ;
+	
+					SELECT 'LOADING employees' as 'INFO';
+source load_employees.dump ;
+
+					SELECT 'LOADING dept_emp' as 'INFO';
+source load_dept_emp.dump ;
+
+(C:\Users\LenovoG500\                                                      | ................................................................................................................|
+Downloads\test_db-master\                 --->>>                 | ................................................................................................................|                           
+test_db-master\employees.sql)	                    SELECT 'LOADING dept_manager' as 'INFO';
+source load_dept_manager.dump ;
+
+					SELECT 'LOADING titles' as 'INFO';
+source load_titles.dump ;
+
+					SELECT 'LOADING salaries' as 'INFO';
+source load_salaries1.dump ;
+
+					source load_salaries2.dump ;
+					.
+source load_salaries3.dump ;
+
+
+
+
+
+ ==========================================================  LIKE THIS    =========================================================================
+
+
+C:/Users/LenovoG500/Downloads/test_db-master/test_db-master/load_departments.dump
+C:/Users/LenovoG500/Downloads/test_db-master/test_db-master/load_dept_emp.dump
+C:/Users/LenovoG500/Downloads/test_db-master/test_db-master/load_dept_manager.dump
+C:/Users/LenovoG500/Downloads/test_db-master/test_db-master/load_employees.dump
+C:/Users/LenovoG500/Downloads/test_db-master/test_db-master/load_salaries1.dump
+C:/Users/LenovoG500/Downloads/test_db-master/test_db-master/load_salaries2.dump
+C:/Users/LenovoG500/Downloads/test_db-master/test_db-master/load_salaries3.dump
+C:/Users/LenovoG500/Downloads/test_db-master/test_db-master/load_titles.dump
+
+
+
+
+THANKS FOR YOUR PATIENCE.....................................................
+
+CREATED ON:02/02/2022
+WHATS A LUCKY DATE AND ME TOO
+
+
+
+
+
+
+By:AHER SAURABH SANTOSH
+ALWAYS_AHEAD_6527.
